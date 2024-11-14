@@ -21,7 +21,3 @@ The curl command is a versatile tool for transferring data from or to a server, 
 - Purpose: Tells curl to follow redirects.
 - Example: `curl -L <URL>`
 - Use Case: Necessary if the URL you’re accessing redirects to another location. Without -L, curl will only request the original URL and will stop if a redirect response (like HTTP 301 or 302) is returned.
-
-
-
-

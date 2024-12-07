@@ -1,7 +1,7 @@
 # Git Commands
 
 ## Basic Git Commands
-## [./staging_unstaging.md](Staging and Unstagin in Git)
+## [Staging and Unstagin in Git](./staging_unstaging.md)
 
 ### Checking git version
 

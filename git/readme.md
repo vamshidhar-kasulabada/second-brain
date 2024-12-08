@@ -1,7 +1,14 @@
 # Git Commands
 
+- [Basic Git Commands](#basic-git-commands)
+- [Remote in git](./remote.md.md)
+- [Staging and Unstagin in git](./staging_unstaging.md)
+- [Stashing in git](./stashing.md)
+- [log command in git](./log.md)
+- [config command in git](./config.md)
+
+
 ## Basic Git Commands
-## [Staging and Unstagin in Git](./staging_unstaging.md)
 
 ### Checking git version
 

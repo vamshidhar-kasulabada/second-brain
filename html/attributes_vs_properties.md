@@ -33,3 +33,8 @@ In HTML, properties and attributes might seem interchangeable at first, but ther
 
 Think of attributes as the instructions you give in the HTML to set up an element, while properties represent the live, changeable state of that element within the browser as the user interacts with the page.
 
+### ReferencesS
+- [ Attributes v/s Properties | Javascript ](https://www.youtube.com/watch?v=c7lmOTfUC-k&pp=ygUgYXR0cmlidXRlIHZzIHByb3BlcnR5IGphdmFzY3JpcHQ%3D)
+- [HTML Attributes versus Properties in JavaScript](https://www.youtube.com/watch?v=8QLXD-8wbrc)
+- [ What's the the difference between element attributes & properties in JavaScript? ](https://www.youtube.com/watch?v=TNyQ7phq5qU)
+

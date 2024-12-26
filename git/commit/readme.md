@@ -18,3 +18,10 @@ git commit [options]
 git commit -m "Initial commit"
 ```
 
+### `--amend`
+- Edit the most recent commit message
+```bash
+git commit --amend
+```
+- An editor will open with the current commit message.
+- Edit the message as desired, save, and close the editor.

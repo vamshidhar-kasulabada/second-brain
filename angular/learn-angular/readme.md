@@ -11,3 +11,4 @@
 
 - [Components](./components/readme.md)
 - [Input Decorator](./decoraters/input.md)
+-[Pipes](./pipes/readme.md)

@@ -11,4 +11,5 @@
 
 - [Components](./components/readme.md)
 - [Input Decorator](./decoraters/input.md)
--[Pipes](./pipes/readme.md)
+- [Pipes](./pipes/readme.md)
+- [Angular Change Detection](./change-detection/readme.md)

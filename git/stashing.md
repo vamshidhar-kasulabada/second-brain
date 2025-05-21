@@ -75,6 +75,68 @@ git stash show -p
 ```
 
 ---
+## Git Stash Push with Patch Option
+
+### Overview
+
+`git stash push -p` is a command used to stash selective changes in your working directory. The `-p` option stands for "patch" and allows you to interactively choose which changes to stash.
+
+## Command Syntax
+
+```bash
+git stash push -p [-m "message"]
+```
+
+- **`-p`**: Initiates an interactive mode to selectively stash changes.
+- **`-m "message"`**: Optional. Adds a descriptive message to your stash, helping you identify it later.
+
+## How It Works
+
+1. **Interactive Mode**: When you run `git stash push -p`, Git will present each change in your working directory one by one, allowing you to decide whether or not to stash it.
+
+2. **Options During Interactive Stash**:
+   - `y`: Stash this change.
+   - `n`: Do not stash this change.
+   - `q`: Quit, do not stash this change nor any of the remaining ones.
+   - `a`: Stash this change and all remaining ones.
+   - `d`: Do not stash this change nor any of the remaining ones.
+   - `g`: Select a group of changes to stash.
+   - `s`: Split the change into smaller parts.
+   - `e`: Manually edit the change.
+   - `?`: Help, display the help message.
+
+3. **Adding a Message**: You can add a message to the stash for easier identification by using the `-m` option:
+
+   ```bash
+   git stash push -p -m "Descriptive message about the stash"
+   ```
+
+## Viewing Stashes
+
+After stashing, you can view all your stashes with their messages using:
+
+```bash
+git stash list
+```
+
+## Example
+
+```bash
+git stash push -p -m "Stashing selective changes for feature X"
+```
+
+This command will interactively stash selected changes and associate them with the message "Stashing selective changes for feature X".
+
+## Benefits
+
+- **Selective Stashing**: Allows you to stash only specific changes, leaving others in your working directory.
+- **Descriptive Messages**: Helps in organizing and identifying stashes with custom messages.
+
+## Conclusion
+
+`git stash push -p` is a powerful command for managing changes in a granular way, providing flexibility and clarity in your workflow.
+
+---
 
 ## **Example Workflow**
 
